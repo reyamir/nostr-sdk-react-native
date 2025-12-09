@@ -48,8 +48,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
-    "release": "release-it",
-    "postinstall": "yarn ubrn:checkout && yarn ubrn:android --release && yarn ubrn:ios --release"
+    "release": "release-it"
   },
   "keywords": [
     "nostr",
@@ -179,9 +178,9 @@
   "create-react-native-library": {
     "type": "turbo-module",
     "languages": "cpp",
-    "version": "0.49.0"
+    "version": "^0.49.0"
   },
   "dependencies": {
-    "uniffi-bindgen-react-native": "^0.28.3-5"
+    "uniffi-bindgen-react-native": "^0.29.3-1"
   }
 }
