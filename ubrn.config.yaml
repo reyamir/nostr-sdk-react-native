@@ -1,4 +1,5 @@
 ---
 rust:
-  directory: deps/nostr-sdk-ffi
+  repo: https://github.com/rust-nostr/nostr-sdk-ffi.git
+  branch: master
   manifestPath: Cargo.toml
